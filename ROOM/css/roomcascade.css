@@ -102,17 +102,21 @@ position: sticky;
     color: #7c9d96;
     /* display: block; */
     float: right;
-    margin: 90px 149px 0px 90px;
+    margin: 78px 211px 0px 0px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 240%;
     clear: right;
 }
 #normie{
     display: inline-block;
-    border: 3px red solid;
+    /* border: 3px red solid; */
     padding: 15px;
     width: 395px;
     float: right;
     clear: right;
+    margin-top: 0px;
 
+}
+#counter{
+    /* border: 3px greenyellow solid; */
 }
