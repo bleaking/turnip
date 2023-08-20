@@ -1,0 +1,118 @@
+body{
+    background-color: #F4F2DE;
+    width: 1050px;
+    margin: auto;
+}
+#logo{
+    padding: 0;
+    margin: auto;
+    width: 394px;
+}
+#logo img{
+    width: 85px;
+    border-radius: 15px;
+}
+#logo h1{
+    display: inline-block;
+    padding: 0;
+    font-size: 720%;
+    margin: 0;
+    font-family: 'REM', sans-serif;
+}
+.bord{
+    border: 9px solid #7C9D96;
+}
+#left{
+/* border: 3px solid #7C9D96; */
+display: inline-block;
+width: 250px;
+background-color: #A1CCD1;
+padding: 35px 25px 35px 25px;
+border-radius: 15px;
+position: sticky;
+}
+#left h1{
+    text-align: center;
+    margin: 0px 0px 45px 0px;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 40px;
+    color: #7c9d96;
+    /* text-decoration: underline; */
+}
+#left li a{
+    text-decoration: none;
+    color: #7C9D96;
+    /* text-align: center; */
+}
+#left li{
+    list-style: none;
+}
+#left li ul{
+    text-align: center;
+    padding: 0;
+    font-size: 150%;
+}
+#left hr{
+    color: #7c9d96;
+    width: 200px;
+}
+#intro{
+    display: inline-block;
+    width: 650px;
+    float: right;
+    border-radius: 15px;
+    background-color: #E9B384;
+    margin-bottom: 25px;
+    padding: 43px;
+}
+#feed{
+    display: inline-block;
+    width: 737px;
+    float: right;
+    height: 550px;
+    border-radius: 15px;
+    background-color: #E9B384;
+}
+#intro #howl_img{
+    width: 150px;
+    margin: 30px 0px 0px 40px;
+    border-radius: 100%;
+    border: 8px solid #E9B384;
+}
+#intro #howl_img:hover{
+    border: 8px solid #7C9D96;
+    transition:all 0.2s ease-in;
+}
+#intro div:not(#turnip){
+    width: 430px;
+    display:block;
+    float: right;
+    margin-top: 10px;
+}
+.jump{
+    text-decoration: none;
+    color: #7C9D96;
+}
+.jump:hover{
+    color: #e9b384;
+    text-shadow: red 0 0 5px;
+    transition: all 0.3s ease-in; /* <-- transition element */
+}
+#turnip{
+    color: #7c9d96;
+    /* display: block; */
+    float: right;
+    margin: 90px 149px 0px 90px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 240%;
+    clear: right;
+}
+#normie{
+    display: inline-block;
+    border: 3px red solid;
+    padding: 15px;
+    width: 395px;
+    float: right;
+    clear: right;
+
+}
